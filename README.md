@@ -14,23 +14,18 @@ These instructions will get you a copy of the project up and running on your loc
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/irc-client.git
-    cd irc-client
+    git clone https://github.com/ComputerTech312/RawIRC.git
+    cd RawIRC
     ```
 
 2. Create a virtual environment:
     ```bash
-    python3 -m venv venv
+    python3 -m venv rawirc
     ```
 
 3. Activate the virtual environment:
-    - On Windows:
         ```bash
-        .\venv\Scripts\activate
-        ```
-    - On Unix or MacOS:
-        ```bash
-        source venv/bin/activate
+        source rawirc/bin/activate
         ```
 
 4. Install the required packages:
@@ -43,4 +38,4 @@ These instructions will get you a copy of the project up and running on your loc
 To start the IRC client, run the following command:
 
 ```bash
-python main.py <server> <port>
+python rawirc.py <server> <port>
