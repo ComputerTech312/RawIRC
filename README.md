@@ -24,9 +24,9 @@ These instructions will get you a copy of the project up and running on your loc
     ```
 
 3. Activate the virtual environment:
-        ```bash
-        source rawirc/bin/activate
-        ```
+    ```bash
+    source rawirc/bin/activate
+    ```
 
 4. Install the required packages:
     ```bash
